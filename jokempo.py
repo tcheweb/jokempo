@@ -36,4 +36,4 @@ elif jogada[pessoa] == 'PAPEL' and jogada[computador] == 'PEDRA':
 elif jogada[pessoa] == 'TESOURA' and jogada[computador] == 'PAPEL':
     vencedor = 'VOCÊ'
 
-print('{} VENCEU!'.format(vencedor))
+print(f'{vencedor} VENCEU!')
